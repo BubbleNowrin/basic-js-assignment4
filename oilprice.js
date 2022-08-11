@@ -35,4 +35,4 @@ function oilPrice(dieselQuantity, petrolQuantity, octaneQuantity) {
     return totalOilPrice;
 }
 
-// console.log(oilPrice(0, 1, 2));
+// console.log(oilPrice('ok', 'no', [2, 3]));

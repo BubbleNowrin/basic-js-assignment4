@@ -10,8 +10,11 @@ function isJavaScriptFile(string) {
         return 'Enter a Valid String';
     }
 
+    //Convert to lowercase
+    let lowerString = string.toLowerCase();
+
     //Conditions Check
-    if (string.endsWith('.js')) {
+    if (lowerString.endsWith('.js')) {
         return true;
     }
     else {
@@ -19,4 +22,4 @@ function isJavaScriptFile(string) {
     }
 }
 
-// console.log(isJavaScriptFile('image.js'));
+console.log(isJavaScriptFile(false));

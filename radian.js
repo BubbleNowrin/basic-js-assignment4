@@ -21,5 +21,5 @@ function radianToDegree(radian) {
     return degreeFloat;
 
 }
-// console.log(radianToDegree(199));
+// console.log(radianToDegree(true));
 

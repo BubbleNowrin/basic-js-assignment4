@@ -9,7 +9,7 @@
 function publicBusFare(personNumber) {
 
     //Error Check
-    if (typeof (personNumber) != 'number') {
+    if (typeof (personNumber) != 'number' || personNumber < 0) {
         return 'Enter a valid person number';
     }
 
@@ -27,4 +27,4 @@ function publicBusFare(personNumber) {
     return publicBusCost;
 }
 
-// console.log(publicBusFare(55));
+// console.log(publicBusFare(9));

@@ -19,9 +19,8 @@ function isBestFriend(object1, object2) {
     }
 }
 
-// let obj1 = { name: 'babul', friend: 'abul' };
-// let obj2 = { name: 'abul', friend: 'babul' };
-// console.log(isBestFriend(obj1, obj2));
+let obj1 = { name: 'doe', friend: 'alex' };
+let obj2 = { name: 'alex', friend: 'doe' };
+// let obj2 = [2, 3];
 
-
-//|| Array.isArray(object1) != 'object' || Array.isArray(object1) != 'object'
+console.log(isBestFriend(obj1, obj2));
